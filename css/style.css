@@ -329,6 +329,7 @@
     color: white;
     font-size: 1rem;
     font-weight: 600;
+   text-transform: none;
     letter-spacing: 0.5px;
     margin: 0 0 0.5rem;
     line-height: 1.2;
