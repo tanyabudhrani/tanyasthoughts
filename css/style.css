@@ -2,7 +2,7 @@
    0.  MICRO RESET
    ========================================================= */
    * { box-sizing: border-box; margin: 0; padding: 0; }
-   html, body { height: 100%; }
+   html, body { height: 100%; margin: 0; padding: 0;}
    
    /* =========================================================
       1.  GLOBAL BACKDROP
@@ -153,10 +153,52 @@
      font-size: 1.2rem;
      line-height: 1.8;
      color: #222;
-     max-width: 65ch;
+     max-width: 75ch;
      margin: 0 auto;
      padding-bottom: 5rem;
    }
+   .article-body p {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-size: clamp(1.05rem, 2.2vw, 1.2rem);
+    line-height: 1.8;
+    color: #1a1a1a;
+    letter-spacing: 0.01em;
+    margin-bottom: 1.5rem;
+  }
+  .article-body .lead::first-letter {
+    float: left;
+    font-size: 6rem;
+    line-height: 1;
+    padding-right: 0.15em;
+    font-family: 'Abril Fatface', serif; /* matches your title font */
+    color: #000;
+  }
+
+  .article-body figure {
+    margin: 3rem auto;
+    text-align: center;
+  }
+  
+  .article-body img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .article-body blockquote {
+    font-style: italic;
+    color: #555; /* soft grey */
+    border-left: 4px solid #ccc; /* subtle vertical bar */
+    padding-left: 1.25rem;
+    margin: 2rem 0;
+    background: #fff;
+    font-size: 1.2rem;
+  }
+  .article-body ul {
+    margin-bottom: 1.5rem;
+    font-family: 'Abril Fatface', serif;
+  }
 
    .sheet-wrapper {
     position: sticky;
@@ -320,36 +362,120 @@
   body.scrolled #topbar {
     background: rgba(0,0,0,.65); backdrop-filter: blur(4px);
   }
+  .card--tall {
+    grid-row: span 2;
+  }
+  .card--wide {
+    grid-column: span 2;
+  }
+  .card--big {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+
+  /* Footer */
+
+  .site-footer {
+    padding: 3rem 1.5rem;
+    font-size: 0.9rem;
+    background: #000;
+    color: #999; /* Light grey for text */
+  }
+  
+  .footer-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+  .footer-left {
+    color: #999;
+    max-width: 400px;
+  }
+  .footer-left a {
+    color: #999;
+    text-decoration: underline;
+  }
+  .footer-left .pdf-line {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .footer-left .disclaimer {
+    margin-top: 1.5rem;
+    font-size: 0.85rem;
+    color: #666;
+    line-height: 1.4;
+  }
+  .footer-social {
+    margin-left: auto;
+    text-align: right;
+  }
+
+  .footer-contact {
+    color: #666;
+  }
+  
+  .footer-download p {
+    margin-top: 2rem;
+  }
+  .footer-legal {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    color: #666;
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+  .footer-social p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-social ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-social li {
+    margin-bottom: 0.25rem;
+  }
+  
+  .site-footer a {
+    position: relative;
+    padding-bottom: 2px;
+    color: #999;
+    text-decoration: underline;
+  }
+  .site-footer a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: white;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+  }
+  .site-footer a:hover::after {
+    transform: scaleX(1);
+    color: #ccc;
+  }
+  
+  .site-footer a:hover {
+    color: #aaa;
+  }
+  
+  .footer-legal {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+    color: #666;
+    font-size: 0.8rem;
+  }
+  
    
-   /* 🎯 Hero Section
-.sheet-wrapper
-
-#hero
-
-.hero-title
-
-.hero-title .dot
-
-💬 Intro Section
-#intro
-
-.intro-wrapper
-
-📚 Grid Title
-.grid-title
-
-🗂 Cards Section
-Each article card:
-
-#grid
-
-.card
-
-.card--tall, .card--wide, .card--big (used as modifier classes — optional, for sizing)
-
-.card img
-
-.info
-
-.tag */
-
