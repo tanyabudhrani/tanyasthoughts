@@ -478,4 +478,51 @@
     font-size: 0.8rem;
   }
   
-   
+  .quote-section blockquote {
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin: 2rem 0;
+    padding-left: 1rem;
+    border-left: 3px solid #ccc; /* optional visual flair */
+  }
+  
+  .quote-section blockquote span {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  blockquote.tight-quote {
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 2rem 0;
+    padding-left: 1rem;
+    border-left: 3px solid #ccc;
+  }
+  
+  blockquote.tight-quote span {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+  h2 {
+    font-family: 'Georgia', serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    color: #111;
+  }
+  
+  h3 {
+    font-family: 'Georgia', serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
