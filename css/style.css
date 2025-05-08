@@ -377,13 +377,13 @@
     background: rgba(0,0,0,.65); backdrop-filter: blur(4px);
   }
   .card--tall {
-    grid-row: span 2;
+    grid-row: span 1;
   }
   .card--wide {
     grid-column: span 2;
   }
   .card--big {
-    grid-column: span 2;
+    grid-column: span 3;
     grid-row: span 2;
   }
 
