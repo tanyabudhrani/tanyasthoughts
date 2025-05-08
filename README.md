@@ -16,21 +16,6 @@ This is a minimalist archive-style website built using HTML and CSS to showcase 
 - CSS3 (no frameworks)
 - Google Fonts: [Abril Fatface](https://fonts.google.com/specimen/Abril+Fatface), [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans)
 
-## 💡 Folder Structure
-
-project/
-├── index.html
-├── css/
-│ └── style.css
-├── assets/
-│ ├── buzzfeed.jpg
-│ ├── pnp.jpeg
-│ ├── ubco.jpg
-│ └── ...more images
-├── js/
-│ └── main.js (optional)
-└── README.md
-
 ## 🚀 How to Run Locally
 
 1. Clone the repo or download the ZIP.
