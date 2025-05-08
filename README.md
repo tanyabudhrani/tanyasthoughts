@@ -45,8 +45,8 @@ open index.html
 
 ## 📬 Contact
 
-Created with love by Tanya Budhrani
-Email: tanyabudhrani04@gmail.com
-GitHub: @tanyabudhrani
-LinkedIn: tanyabudhrani
+- Created with love by Tanya Budhrani
+- Email: tanyabudhrani04@gmail.com
+- GitHub: @tanyabudhrani
+- LinkedIn: tanyabudhrani
 
