@@ -244,7 +244,6 @@
     opacity: 0;
     transform: translateY(70px);
     transition: opacity .6s, transform .6s;
-    background: black;  
     font-family: 'Josefin Sans', sans-serif; 
   }
   body.show-intro #intro {
