@@ -216,7 +216,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    : #fff;
+    background: #fff;
     color: #000;
     position: relative;
     z-index: 2;
