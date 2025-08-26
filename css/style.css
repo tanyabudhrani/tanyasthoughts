@@ -9,7 +9,7 @@
       ========================================================= */
    body {
      font-family: "Helvetica Neue", Arial, sans-serif;
-     background: #000 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQIW2NoaOj4DwADEQGx6eT1XwAAAABJRU5ErkJggg==") repeat;
+     background-color: black;
      background-attachment: fixed;
      color: #fff;
      scroll-behavior: smooth;
@@ -136,7 +136,7 @@
       6.  ARTICLE CONTENT
       ========================================================= */
    .article-wrap {
-     : white;
+     background-color: white;
      position: relative;
      z-index: 15;
      margin-top: -10vh;
