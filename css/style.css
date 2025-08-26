@@ -9,7 +9,7 @@
       ========================================================= */
    body {
      font-family: "Helvetica Neue", Arial, sans-serif;
-     background-color: black;
+     background: black;
      background-attachment: fixed;
      color: #fff;
      scroll-behavior: smooth;
