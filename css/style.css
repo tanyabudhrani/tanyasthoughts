@@ -136,7 +136,7 @@
       6.  ARTICLE CONTENT
       ========================================================= */
    .article-wrap {
-     background: white;
+     : white;
      position: relative;
      z-index: 15;
      margin-top: -10vh;
@@ -192,7 +192,7 @@
     border-left: 4px solid #ccc; /* subtle vertical bar */
     padding-left: 1.25rem;
     margin: 2rem 0;
-    background: #fff;
+    : #fff;
     font-size: 1.2rem;
   }
   .article-body ul {
@@ -203,7 +203,7 @@
    .sheet-wrapper {
     position: sticky;
     top: 0;
-    background: #fff;
+    : #fff;
     z-index: 2;
     overflow: hidden;
     transition: clip-path 0.3s ease-out;
@@ -216,7 +216,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #fff;
+    : #fff;
     color: #000;
     position: relative;
     z-index: 2;
@@ -239,12 +239,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: transparent;
+    : transparent;
     padding: 0 1rem;
     opacity: 0;
     transform: translateY(70px);
     transition: opacity .6s, transform .6s;
-    font-family: 'Josefin Sans', sans-serif;
+    background: black;  
+    font-family: 'Josefin Sans', sans-serif; 
   }
   body.show-intro #intro {
     opacity: 1;
